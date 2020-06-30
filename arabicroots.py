@@ -1,5 +1,7 @@
 #Arabic_Roots
 
+#thanks for making the main python file I will work towards moving everything over to that file.
+
 #This code needs to be revised so that there are 3 inputs from the user for each letter. Code will also be written to allow 2 or 4 letters in the future development.
 #Furthermore this code need to take each input turn it into the arabic letter as a string, then cocatenate with the two other inputs to produce a word. Arabic is tricky on letter connection as those are unique characters when connecting individual letters.
 #That word will be stored in an MySQL database as a primary key where the forms of that root I-XII are stored along with the meaning.
