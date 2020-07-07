@@ -1,7 +1,7 @@
 import sqlite3
 
-conn = sqlite3.connect('root_table.db');
-print('Opened database succesfully!');
+conn = sqlite3.connect('root_table.db')
+print('Opened database succesfully!')
 
 #conn.execute(''' INSERT INTO ROOT_TABLE (ROOT, FORM_1) VALUES (' \u0633 \u0631 \u062F ', 'Form 1 - To study')''');
 
