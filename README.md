@@ -1,1 +1,1 @@
-This program is meant to take an input of an arabic root, of 2, 3, or 4 arabic letters and then return the english meaning of that root to the user.
+This program is meant to take an input of an Arabic root, of 2, 3, or 4 Arabic letters and then returns the English meaning of that root to the user by searching an SQL database of Hans Wehr's dictionary.
