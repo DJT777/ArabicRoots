@@ -1,15 +1,14 @@
 #!/usr/bin/env python
 #Arabic_Roots
 
-#thanks for making the main python file I will work towards moving everything over to that file.
 
-#This code needs to be revised so that there are 3 inputs from the user for each letter. Code will also be written to allow 2 or 4 letters in the future development.
-#Furthermore this code need to take each input turn it into the arabic letter as a string, then cocatenate with the two other inputs to produce a word. Arabic is tricky on letter connection as those are unique characters when connecting individual letters.
-#That word will be stored in an MySQL database as a primary key where the forms of that root I-XII are stored along with the meaning.
 
-#Must developed a MySQL database of at least 5 arabic roots with their XII conjugated forms.
+#Arabic Roots is a program I have written to help me study different texts in Arabic.
+#The Arabic language is based on a three letter root system.
+#Some words have up to 12 meanings based on their forms, all of which are distinct.
+#This program allows a user to enter a root and retrieve the meanings of each form from a database of roots
 
-#Must learn to query database and search primary key column for the root, then when it is found print to the user in the terminal Forms I-XII as stored in the table.
+
 import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
